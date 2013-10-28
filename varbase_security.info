@@ -1,0 +1,10 @@
+name = Varbase Security
+description = Vardot's collection for a secure website.
+core = 7.x
+package = varbase
+version = 7.x-1.0
+project = varbase_security
+dependencies[] = password_policy
+dependencies[] = password_policy_password_tab
+dependencies[] = seckit
+features[features_api][] = api:2
